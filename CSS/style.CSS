@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 body{
-
-    background-attachment: fixed;
-    background-size: cover;
+    
     height: 4000px;
     
 }
@@ -22,8 +20,7 @@ body{
 .header{
 
     width: 90%;
-    height: 60px;
-    margin-bottom: 50px;
+    height: 60px;    
     background-color:red;
     opacity: 0.6;
     position: fixed;
@@ -53,6 +50,48 @@ body{
 a:hover{
     color: white;
     
+}
+.parent-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/BACKGROUNDF.jpg);
+    position: relative;
+}
+.home-section{
+ width:75% ;
+ 
+ text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.title{
+    font-size: 90px;
+    text-transform: capitalize;
+
+}
+.home-p{
+margin: 15px 0px;
+font-size: 19px;
+color: rgb(21, 10, 31);
+letter-spacing: 1px;
+}
+.home-btn{
+width: 130px;
+padding: 15px;
+border: 0;
+border-radius: 4px;
+text-transform: capitalize;
+font-size: 17px;
+}
+.btn1{
+
+}
+.btn2{
+background-color: blue;
+color: aliceblue;
+margin-left: 12px;
 }
 .team-title{
 font-size: 50px;
@@ -211,6 +250,10 @@ text-transform: capitalize;
     border-radius: 10px;
     border-color: blue;
     
+}
+.icons-welcome i{
+    font-size: 60px;
+    text-align: center;
 }
 .featured-container{
     width: 90%;
